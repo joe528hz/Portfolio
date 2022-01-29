@@ -1,13 +1,15 @@
 h1{
-    color: #008000;
+    border-top: 1px solid #008000;
+    padding-top: 20px;
 }
-
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('./images/heroImage.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/heroImage.jpg');
     background-size:cover;
-    position:relative;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 /* text css above hero image*/
 .hero_title {
